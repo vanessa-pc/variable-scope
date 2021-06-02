@@ -24,5 +24,7 @@ function printWithSuffix() {
 }
 
 printWithPrefix();
-console.log("\nseparator\n");
+console.log("\n");
 printWithSuffix();
+console.log("\nback in global scope")
+console.log("my prefix and suffix:", prefix, commonOuterScope, suffix)
