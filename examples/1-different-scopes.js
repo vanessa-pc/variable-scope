@@ -24,5 +24,5 @@ function printWithSuffix() {
 }
 
 printWithPrefix();
-console.log('\nseparator\n');
+console.log('\n'); // print a new line character
 printWithSuffix();
