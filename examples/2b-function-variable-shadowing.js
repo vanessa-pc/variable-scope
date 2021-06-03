@@ -4,7 +4,7 @@ let myWord = "sand";
 let suffix = "wich";
 
 function printWithSuffix() {
-  console.log("inside scope of function 2");
+  console.log("inside function scope");
 
   let suffix = "castle";
   console.log('printing with suffix:', `${myWord}${suffix}`);
