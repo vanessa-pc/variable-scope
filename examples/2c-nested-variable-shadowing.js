@@ -1,14 +1,13 @@
-let message = "Hello, global scope!";
+let scope = "global";
 
 function printScopeExample() {
-  let message = "Hello, function scope inside global scope!";
-  for (let i = 0; i <= 2; i++) {
-    let message =
-      "Hello, loop scope inside function scope inside global scope!";
-    console.log(message);
+  let scope = "function inside global";
+  for (let i = 1; i <= 2; i++) {
+    let scope = "loop inside function inside global";
+    console.log("my scope is", scope);
   }
-  console.log(message);
+  console.log("my scope is", scope);
 }
 
 printScopeExample();
-console.log(message);
+console.log("my scope is", scope);
