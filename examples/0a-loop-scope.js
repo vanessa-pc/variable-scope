@@ -1,12 +1,12 @@
 "use strict";
 
-let myString = 'testing out variable scope';
-let words = myString.split(' ');
+const myString = 'testing out variable scope';
+const words = myString.split(' ');
 
 console.log('Entering my loop:');
 
 for (let word of words) {
-  let capitalisedWord = word.toUpperCase();
+  const capitalisedWord = word.toUpperCase();
   console.log('I shout:', capitalisedWord);
 }
 

@@ -1,12 +1,12 @@
 "use strict";
 
-let myWord = "sand";
-let suffix = "wich";
+const myWord = "sand";
+const suffix = "wich";
 
 function printWithSuffix() {
   console.log("inside function scope");
 
-  let suffix = "castle";
+  const suffix = "castle";
   console.log('printing with suffix:', `${myWord}${suffix}`);
 }
 

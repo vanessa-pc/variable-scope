@@ -2,8 +2,8 @@
 
 console.log("Start of programme");
 
-let fruitArr = ['apple', 'grape', 'pear'];
-let stringSeparator = '-- PLUS --';
+const fruitArr = ['apple', 'grape', 'pear'];
+const stringSeparator = '-- PLUS --';
 
 console.log("Entering my loop:");
 

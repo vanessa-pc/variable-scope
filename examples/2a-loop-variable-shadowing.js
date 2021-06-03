@@ -1,6 +1,6 @@
 "use strict";
 
-let punctuationChar = '!';
+const punctuationChar = '!';
 
 for (let count = 1; count <= 2; count++) {
   // declaring a new variable with narrower scope

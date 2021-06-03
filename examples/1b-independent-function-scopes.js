@@ -1,11 +1,11 @@
 "use strict";
 
-let commonOuterScope = "sand";
+const commonOuterScope = "sand";
 
 function printWithPrefix() {
   console.log('inside scope of function 1');
 
-  let prefix = "quick";
+  const prefix = "quick";
   console.log("printing with prefix:", `${prefix}${commonOuterScope}`);
 
   // below line will error, comment out to fix
@@ -16,7 +16,7 @@ function printWithPrefix() {
 function printWithSuffix() {
   console.log("inside scope of function 2");
 
-  let suffix = "castle";
+  const suffix = "castle";
   console.log('printing with suffix:', `${commonOuterScope}${suffix}`);
 
   // below line will error, comment out to fix

@@ -2,8 +2,8 @@
 
 console.log("Start of programme");
 
-let healthyFoods = ['fruit', 'veg'];
-let junkFoods = ['chocolate', 'cake', 'poison'];
+const healthyFoods = ['fruit', 'veg'];
+const junkFoods = ['chocolate', 'cake', 'poison'];
 
 for (let healthyItem of healthyFoods) {
   console.log(`${healthyItem} is normally considered a healthy food`);
