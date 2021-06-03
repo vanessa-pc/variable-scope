@@ -9,5 +9,5 @@ for (let count = 1; count <= 5; count++) {
   console.log(myString);
 }
 
-// but back in global scope, still only have reference to outer myCharacter
+// but back in global scope, still only have reference to global myCharacter
 console.log('my character is:', myCharacter);
