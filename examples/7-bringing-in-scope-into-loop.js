@@ -14,4 +14,4 @@ for (let word of words) {
 }
 
 // outer scope variable can still be referenced here
-console.log('shortest word:', shortestWord)
+console.log('shortest word:', shortestWord);
