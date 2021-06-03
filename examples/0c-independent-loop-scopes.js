@@ -11,7 +11,7 @@ for (let healthyItem of healthyFoods) {
 
 for (let junkItem of junkFoods) {
   console.log(`${junkItem} is NOT normally considered a healthy food`);
-  // below will error
+  // below will error. Why?
   console.log(`...so, swap it for ${healthyItem}!`);
 }
 
