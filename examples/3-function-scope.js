@@ -10,6 +10,6 @@ function printStuffFromInnerScope() {
 
 printStuffFromInnerScope();
 
-console.log("outside a function, I can't access variables from its inner scope:", myInnerFruit); // causes an error! comment out this line to fix
+console.log("outside a function, I can't access variables from that function's scope:", myInnerFruit); // causes an error! comment out this line to fix
 
-console.log("outside a function, I can access variables from the general outer scope", myOuterFruit);
+console.log("outside a function, I can access variables from the global scope", myOuterFruit);
